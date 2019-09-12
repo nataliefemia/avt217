@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+background-color: #C5B6D5
+
+}
+
+#wrapper {
+	background-color: #979090;
+	width: 90%;
+}
+
+header {
+	background-color: #E465C7;
+	
+}
+
+
+article {
+	background-color: #647687;
+	text-indent: 30px;
+}
+
+
+Footer {
+	background-color: #508559;
+}
+
+#logo {
+	
+	background-color: #23CB38;
+	width: 100px;
+	float: left;
+}
+
+
+nav {
+	
+background-color: #B2CDAC;
+	width: 200px;
+	float: left;
+	
+}
