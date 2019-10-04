@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("../img/new_year_background.png");
+}
+
+h1 {
+	font-family: didact gothic;
+	font-size: 24pt;
+	font-color: white;
+	
+}
+
+a:link{
+text-decoration: none;
+color:#3263CD;
+}
+
+a:visited {
+	color:#19336A;
+}
+
+
+a:hover {
+	color: #DB2857;
+	text-decoration:underline;
+	
+}
+
+a:active {
+	color:#5DCBC3;
+	background:#41BBCA;
+}
+
+
+h1,h2,h3 {
+text-align: center;	
+	
+}
