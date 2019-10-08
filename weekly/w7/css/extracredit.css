@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #F2F0DE;
+	font-family: san Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: bold;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	background: url("../header image.jpg");
+		background-size: cover;
+	align-content: center;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+nav {
+text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: avenir;
+	color:#8E5B4F;
+	background-color: #F2F0DE;
+	font-size: 1.5em;
+
+	
+}
+
+
+li {
+	display: inline;
+	margin: 28px;
+	text-align: center;
+	
+}
+
+h3 {
+	font-family: avenir;
+	color:#8E5B4F;
+	font-size: 1.25em;
+	font-weight: lighter;
+	
+}
+
+h4 {
+	color:#000000;
+	font-family: san Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: bold;
+}
+
+h2 {
+	color:#79AABD;
+	font-size: 2.1em;
+	font-weight: bold;
+	font-family: san Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+Footer {
+	text-align: right;
+	width: 1920;
+	padding-bottom: 10px;
+	background-color: #F2F0DE;
+	clear: both;
+	font-size: .5em;
+	
+}
+
+.column1 {
+	float: left;
+	width: 227px;
+	padding-left: 120px;
+	text-align: right;
+	clear: both;
+		margin-left: 33px;
+}
+
+
+.column2 {
+	float: left;
+	width: 440px;
+	margin-left: 60px;
+	text-align: left;
+	padding-right: 60px;
+}
+
+
+.column3 {
+	float: left;
+	width: 281px;
+	text-align: right;
+	
+}
+
+main {
+	width: auto;
+	margin: 0 30px 50px 30px;
+}
+
+
