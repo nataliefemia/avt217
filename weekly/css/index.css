@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("../img/new_year_background.png");
+}
+
+h1 {
+	font-family: didact gothic;
+	font-size: 24pt;
+	font-color: white;
+	
+}
+
+a:link{
+text-decoration: none;
+color:#3263CD;
+}
+
+a:visited {
+	color:#19336A;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #DB2857;
+	text-decoration: none;
+	
+}
+
+a:active {
+	color:#5DCBC3;
+	background:#41BBCA;
+	text-decoration: none;
+}
+
+
+h1,h2,h3 {
+text-align: center;	
+	font-size: 1.5em;
+	font-family: 'Special Elite', cursive;
+}
+
+.weekly {
+
+	float: left;
+	width: 300px;
+	
+		
+	
+}
+
+#projct {
+	clear: both;
+	float: left;
+	width: 300px;
+	margin-top: 40px;
+}
+
+#wrapper {
+width: 920px;
+	
+	margin: 0 auto;
+}
+
+
+h4 {
+	font-size: 1.3em;
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+}
+
+
+dt {
+	font-size: 1.1em;
+	font-family: 'Heebo', sans-serif;
+	font-weight: light;
+	
+}
+
+
+dd {
+	font-size: 1em;
+	font-family: 'Heebo', sans-serif;
+	font-weight: light;
+}
