@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#gallery {
+	width: 490px;
+	padding: 5px;
+	background-color:#2D9CDE;
+}
+
+
+#gallery img {
+	padding: 5px;
+}
+
+
+
