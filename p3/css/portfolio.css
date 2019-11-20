@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Body */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	padding-left: 8px;
+	margin-right: auto;
+	background-color:#D5BCBE;
+	padding-top: 8px;
+}
+
+.logo {
+	color: white;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	text-align: undefined;
+	width: 20%;
+	float: left;
+	padding-top: 3px;
+	margin-left: 7px;
+	letter-spacing: 4px;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	padding-top: 8px;
+}
+
+nav {
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#000000;
+	float: right;
+	padding-left: 15px;	
+	padding-right: 40px;
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+li {
+	display: inline;
+	padding-left: 3px;
+}
+
+a:link, a:visited, a:hover, a:active {
+text-decoration: none;
+}
+
+a.nav1:link, a.nav1:visited {
+	color:#000000;
+}
+
+a.nav1:hover, a.nav1:active {
+	color: white;
+}
+
+a.logo:link, a.logo:visited {
+	color: white;
+}
+
+a.logo:hover, a.logo:active {
+	color: black;
+}
+
+a.nav2:link, a.nav2:visited {
+	color: white;
+}
+
+a.nav2:hover, a.nav2:active {
+	color: #D5BCBE;
+}
+
+
+a.nav2:link, a.nav2:visited, a.nav2:hover, a.nav2:active {
+	background-color: #595959;
+	padding: 5px;	
+}
+
+a.footer:link, a.footer:visited {
+	color: black;
+}
+
+a.footer:hover, a.footer:active {
+	color: white;
+}
+
+.topright {
+		color: black;
+	font-size: 2em;
+font-family: 'Dancing Script', cursive;
+	 position: absolute;
+  top: 220px;
+  right: 250px;
+	width: 400px;
+	line-height: 1.3em;
+	word-spacing: .25em;
+	text-align: center;
+}
+
+.column1 {
+	float: left;
+	text-align: left;
+	width: 25%;
+	padding-left: 4%;
+}
+
+
+.column2 {
+	float: left;
+	text-align: left; 
+	width: 25%;
+	padding-left: 15%;
+}
+
+.column3 {
+	float: left;
+	text-align: left;
+	width: 25%;
+	padding-left: 3%;
+}
+
+
+footer {
+	width: 100%;
+	margin-left: auto;
+	height: 160px;
+	background-color:#D5BCBE;
+	padding-top: 20px;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 1.2em;
+}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 1em;
+	line-height: 1.3em;	
+}
+
+
+.topleft {
+		color: black;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	 position: absolute;
+  top: 400px;
+	right:500px;
+	left: 100px;
+	width: 400px;
+	line-height: 1.3em;
+	word-spacing: .25em;
+	text-align: center;
+}
+
+
+article {
+	background-color: white;
+	height:300px;
+}
+
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 1.5em;
+	line-height: 1.3em;		
+}
+
+
+h5 {
+	color:#D5BCBE;
+	font-size: 1.2em;
+	font-family: 'Dancing Script', cursive;
+	padding-top: 10px;
+	
+}
+
+h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	line-height: 1.3em;
+	font-weight: lighter;
+	font-size: .75em;
+	padding-top: 10px;
+}
+
+
+.column4 {
+	width: 20%;
+	text-align: right;
+	padding-left: 23%;
+	padding-right: 7%;
+	float: left;
+	padding-top: 30px;
+
+}
+
+h7 {
+	color:#D5BCBE;
+	font-size: 2.2em;
+	font-family: 'Dancing Script', cursive;	
+}
+
+h8 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+
+.column5 {
+	width: 20%;
+	text-align: left;
+	padding-right: 23%;
+	padding-left: 5%;
+	float: left;
+	padding-top: 60px;
+}
+
+
+a.column5:link, a.column5:visited {
+	color: black;
+}
+
+a.column5:hover, a.column5:active {
+	color: white;
+}
+
+h9 {
+	color:black;
+	font-size: 2.2em;
+font-family: 'Dancing Script', cursive;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+section {
+	padding-top: 15px;
+	height: 200px;
+	width: 90%;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;	
+}
+
+aside {
+	height: 480px;
+}
+
+h10 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+
+.services{
+	text-align: left;
+	width: 400px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin:5px;
+	color:black;
+	font-size: 2.2em;
+font-family: 'Dancing Script', cursive;
+	padding-bottom: 10px;
+	 position: absolute;
+	margin-left: 390px;
+	margin-top: 20px;
+
+}
+
+th {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: .4em;
+	line-height: 1.3em;
+}
+
+table {
+  width: 100%;
+}
+
+.skills {
+	text-align: right;
+width: 400px;
+ padding: 10px;
+  border: 5px solid gray;
+  margin:5px;
+	color:black;
+	font-size: 2.2em;
+font-family: 'Dancing Script', cursive;
+		padding-bottom: 10px;
+	 position: absolute;
+	margin-left: 460px;
+	margin-top: 230px;
+}
+
+
+#gallery {
+	width: 100%;
+	background-color:white;
+	margin-left: 90px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#gallery img {
+	padding-left: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+h12 {
+	color:black;
+	font-size: 2.2em;
+font-family: 'Dancing Script', cursive;
+	padding-left: 10px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+
+a.contact:link, a.contact:visited {
+	color: black;
+}
+
+a.contact:hover, a.contact:active {
+	color:#D5BCBE;
+}
+
+
+.img1 {
+	 position: relative;	
+margin-left: 200px;
+	float: left;
+}
+
+
+.img2 {
+	 position: relative;	
+margin-right: 200px;
+	float: right;
+	clear: both;
+}
+
+
+#portfoliogal {
+	width: 100%;
+	background-color:white;
+	margin-left: 220px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+#portfoliogal {
+	padding-left: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
